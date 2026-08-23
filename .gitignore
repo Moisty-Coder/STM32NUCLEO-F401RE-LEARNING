@@ -1,4 +1,14 @@
+.settings
+
+.vscode
+
 build/
 
-mx.scratch
-!.settings
+cmake/
+
+Core/*
+
+!Core/.gitignore
+
+!Core/Src
+
