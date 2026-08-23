@@ -1,4 +1,4 @@
-# F401RE_PROGRAMS
+# STM NUCLEO-F401RE LEARNING PROGRAMS
 
 ## Description
 This repository is a collection of code with distinct functions for my STM32 Nucleo-F401RE microcontroller. It serves as a progression list as I uncover more knowledge on embedded systems, through documentation or videos.
