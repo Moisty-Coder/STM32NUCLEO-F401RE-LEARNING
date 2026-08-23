@@ -8,4 +8,7 @@ The main thing I have learned is that pin status can be read through the HAL fun
 
 This is also the first program to use basic C concepts like if statements. I love the debugging process of changes in my code that reflects to real-life visible results on my board. Overall great stepping stone!
 
+## Special .ioc Configurations
+PA5 (GPIO Pin 5) has been renamed to LED_GREEN
+
 Date: 24/8/20226
