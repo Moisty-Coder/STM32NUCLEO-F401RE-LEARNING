@@ -1,0 +1,31 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "alefragnani.bookmarks",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpp-devtools",
+        "ms-vscode.cmake-tools",
+        "usernamehw.errorlens",
+        "oderwat.indent-rainbow",
+        "ms-vscode.makefile-tools",
+        "pkief.material-icon-theme",
+        "eclipse-cdt.memory-inspector",
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "zhuangtongfa.material-theme",
+        "hoovercj.vscode-power-mode",
+        "stmicroelectronics.stm32cube-ide-build-analyzer",
+        "stmicroelectronics.stm32cube-ide-bundles-manager",
+        "stmicroelectronics.stm32cube-ide-clangd",
+        "stmicroelectronics.stm32cube-ide-build-cmake",
+        "stmicroelectronics.stm32cube-ide-core",
+        "stmicroelectronics.stm32cube-ide-debug-core",
+        "stmicroelectronics.stm32cube-ide-debug-generic-gdbserver",
+        "stmicroelectronics.stm32cube-ide-debug-jlink-gdbserver",
+        "stmicroelectronics.stm32cube-ide-debug-stlink-gdbserver",
+        "stmicroelectronics.stm32cube-ide-project-manager",
+        "stmicroelectronics.stm32cube-ide-registers",
+        "stmicroelectronics.stm32cube-ide-rtos",
+        "stmicroelectronics.stm32-vscode-extension",
+        "eclipse-cdt.serial-monitor"
+    ]
+}
