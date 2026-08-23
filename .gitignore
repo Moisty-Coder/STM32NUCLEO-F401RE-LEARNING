@@ -12,3 +12,14 @@ Core/*
 
 !Core/Src
 
+Drivers/
+
+.clangd
+
+.mxproject
+
+CMakePresets.json
+
+startup_stm32f401xe.s
+
+STM32F401xx_FLASH.ld
