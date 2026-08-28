@@ -59,7 +59,8 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    Core/Src/blinking_LED/blinking_LED.c
+    # Core/Src/blinking_LED/blinking_LED.c
+    Core/Src/blinking_LED/blinking_LED_v2.c
     # Core/Src/button_on_LED/button_on_LED.c
 )
 
