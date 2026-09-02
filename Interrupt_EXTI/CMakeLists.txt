@@ -19,7 +19,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Set the project name
-set(CMAKE_PROJECT_NAME F401RE_PROGRAMS)
+set(CMAKE_PROJECT_NAME Interrupt_EXTI)
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
@@ -34,20 +34,6 @@ enable_language(C ASM)
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
-target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
-    -Wall
-    -Wextra
-    -Wpedantic
-    -Wshadow
-    -Wconversion
-    -Wdouble-promotion
-    -Wnull-dereference
-    -Wformat=2
-    -fno-omit-frame-pointer
-)
-
-set_source_files_properties(Core/Src/syscalls.c PROPERTIES COMPILE_FLAGS "-Wno-conversion")
-
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
 
@@ -59,15 +45,6 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    # Core/Src/blinking_LED/blinking_LED.c
-    Core/Src/blinking_LED/blinking_LED_v2.c
-    # Core/Src/button_on_LED/button_on_LED.c
-)
-
-# FORCE CMAKE TO IGNORE THE GENERATED MAIN.C
-# This strips main.c out of the build compilation entirely
-set_source_files_properties(Core/Src/main.c PROPERTIES 
-    HEADER_FILE_ONLY TRUE
 )
 
 # Add include paths
